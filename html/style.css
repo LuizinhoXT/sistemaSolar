@@ -1,0 +1,21 @@
+#title,  .subtitle, .lista {                 
+    color: rgb(255, 255, 255);
+}
+
+.lista{
+    background-color:  rgb(56, 0, 0);
+    border: 3px solid rgb(255, 255, 255);
+}
+.postTitle{
+    font-size: 14px;
+    font-style: italic;
+}
+body{
+    background: black;
+}
+
+.artigo {
+    padding: 10px;
+    border: 3px solid rgb(56, 0, 0);
+    background:rgb(255, 255, 255);
+}
