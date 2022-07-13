@@ -1,21 +1,28 @@
-#title,  .subtitle, .lista {                 
+.box,.artigo,.lista, .artigoImagem, .headerImagem, #title, .subtitle_1, .lista,.postTitle, .subtitle_0{
     color: rgb(255, 255, 255);
-}
-
-.lista{
-    background-color:  rgb(56, 0, 0);
+    border-radius: 20%; 
+    width: 400px;
+    background-color:rgb(56,0,0);
     border: 3px solid rgb(255, 255, 255);
 }
-.postTitle{
-    font-size: 14px;
-    font-style: italic;
+.postTitle, .subtitle_0{
+    width: 60%;
+}
+.postTitle, .subtitle_0{
+    font-size: 23px;
+    padding: 10px;    
+}
+.artigoImagem, .headerImagem{
+    background-color: rgb(255, 255, 255);
+    margin: auto;
+    width: 60%;
 }
 body{
     background: black;
+    padding: auto;
 }
 
 .artigo {
     padding: 10px;
-    border: 3px solid rgb(56, 0, 0);
-    background:rgb(255, 255, 255);
+    
 }
